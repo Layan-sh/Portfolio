@@ -914,10 +914,3 @@ border:1px solid rgba(165,139,255,.28);
     right:0;
   }
 }
-.menu.active {
-  right: 0;
-}
-
-.menu {
-  right: -100%;
-}
