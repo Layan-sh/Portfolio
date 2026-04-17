@@ -60,3 +60,19 @@ if (menu && nav) {
     nav.classList.toggle("active");
   });
 }
+
+const menu = document.querySelector('.menu'); 
+const menuLinks = document.querySelectorAll('.menu a');
+const menuToggle = document.querySelector('.menu-toggle'); 
+
+menuLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    menu.classList.remove('active');
+  });
+});
+
+document.addEventListener('click', (e) => {
+  if (!menu.contains(e.target) && !menuToggle.contains(e.target)) {
+    menu.classList.remove('active');
+  }
+});
