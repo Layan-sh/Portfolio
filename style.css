@@ -530,7 +530,6 @@ border:1px solid rgba(165,139,255,.28);
   margin-bottom:14px;
 }
 
-/* هذا يفترض إن اسم المشروع صار جنب الأيقونة داخل نفس السطر */
 .project-title-row{
   display:flex;
   align-items:center;
@@ -601,7 +600,6 @@ border:1px solid rgba(165,139,255,.28);
   color:var(--text);
 }
 
-/* لو بقيت tags في HTML لا تظهر */
 .tags{
   display:none;
 }
